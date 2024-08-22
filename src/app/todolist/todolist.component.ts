@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -8,6 +8,18 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './todolist.component.html',
   styleUrl: './todolist.component.css'
 })
-export class TodolistComponent {
+export class TodolistComponent implements OnInit {
+  
+  constructor() {
+
+  }
+
+  ngOnInit(): void {
+    
+  }
+
+  onSubmit(form: FormsModule) {
+
+  }
 
 }
