@@ -40,3 +40,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    - Add CSS file from node_modules folder into the **angular.json** file
 
 3. Create UI: basic Bootstrap form and table into the **todolist.component.html** file
+
+4. Create _Template-Driven form_ for a Standalone component
+   - Add _FormsModule_ to imports in **todolist.components.ts**
+   - Modify `<form></form>` in the template (HTML file) to convert this form into a _template-driven form_ by adding the directive: **ngForm**
