@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Documenting creation process
+
+1. Create a new project: `ng new`
+
+   - We are asked for the project name, name can have dashes, underscore, letters and numbers, name given: **todo-angular**
+   - Then we are asked about the stylesheet format to use. We can select among CSS, SASS and LESS. In this case we selected CSS
+   - Do you want to enable server side rendering and Static Site Generation, we typed **N**
+
+2. Install Boostrap as dependency:
+
+   - Download B `npm i boostrap`
+   - Add CSS file from node_modules folder into the **angular.json** file
+
+3. Create UI: basic Bootstrap form and table into the **todolist.component.html** file
