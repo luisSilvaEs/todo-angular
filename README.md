@@ -44,3 +44,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4. Create _Template-Driven form_ for a Standalone component
    - Add _FormsModule_ to imports in **todolist.components.ts**
    - Modify `<form></form>` in the template (HTML file) to convert this form into a _template-driven form_ by adding the directive: **ngForm**
+
+## References
+
+- [To-Do List in Angular with source code in GitHub.](https://www.youtube.com/watch?v=ZoZ8z7J_SyE)
+- [Forms Angular](https://angular.dev/guide/forms)
+- [Angular Template Driven Forms example](https://www.tektutorialshub.com/angular/angular-template-driven-forms/)
