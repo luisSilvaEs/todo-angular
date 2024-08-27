@@ -9,6 +9,11 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './todolist.component.css'
 })
 export class TodolistComponent implements OnInit {
+
+  taskArray = [{
+    taskName: 'Brush teeth',
+    isCompleted: false,
+  }]
   
   constructor() {
 
